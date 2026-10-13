@@ -1,0 +1,31 @@
+ 
+# Зависимости
+node_modules/
+package-lock.json
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Сборка
+dist/
+build/
+
+# База данных
+*.sqlite
+*.db
+
+# Загрузки пользователей
+backend/uploads/
+
+# Логи
+*.log
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Редактор
+.vscode/
+.idea/
